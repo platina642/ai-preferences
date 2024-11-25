@@ -31,13 +31,63 @@
             "tech_stack": ["Python", "aiogram", "SQLite"],
             "priority": "high"
           }
-        ]
+        ],
+        "code_base_structure": {
+          "preferred_architecture": "модульная",
+          "file_organization": "компонентный подход",
+          "naming_convention": "snake_case"
+        }
       },
       "error_handling_preferences": {
         "debug_level": "подробный",
         "error_language": "русский",
         "include_traceback": true,
         "error_examples": true
+      },
+      "ai_session_memory": {
+        "save_context": true,
+        "remember_previous_solutions": true,
+        "track_progress": true,
+        "continuation_markers": {
+          "start": "// Начало предыдущей сессии",
+          "end": "// Конец предыдущей сессии"
+        }
+      },
+      "code_generation_rules": {
+        "patterns": {
+          "use_dataclasses": true,
+          "prefer_type_hints": true,
+          "async_first": true,
+          "include_docstrings": true
+        },
+        "testing": {
+          "include_examples": true,
+          "test_framework": "pytest",
+          "coverage_requirements": "basic"
+        }
+      },
+      "documentation_preferences": {
+        "format": "markdown",
+        "include_sections": [
+          "описание",
+          "параметры",
+          "примеры использования",
+          "возможные ошибки"
+        ],
+        "example_format": {
+          "code": true,
+          "output": true,
+          "explanation": true
+        }
+      },
+      "learning_resources": {
+        "preferred_sources": [
+          "официальная документация",
+          "практические примеры",
+          "видео туториалы"
+        ],
+        "difficulty_progression": "постепенная",
+        "exercise_type": "практические задачи"
       }
     }
   }
