@@ -1,0 +1,43 @@
+{
+    "ai_interaction_preferences": {
+      "personal": {
+        "name": "Рома",
+        "preferred_language": "русский",
+        "communication_style": "дружелюбный",
+        "session_format": "практический диалог"
+      },
+      "code_preferences": {
+        "style_guide": "PEP 8",
+        "comments_language": "русский",
+        "complexity_level": "простой и понятный",
+        "documentation_type": "подробная",
+        "code_blocks": {
+          "show_changes_only": true,
+          "include_file_paths": true,
+          "highlight_modifications": true
+        }
+      },
+      "learning_approach": {
+        "style": "практический",
+        "example_type": "реальные проекты",
+        "current_focus": "разработка телеграм ботов",
+        "explanation_format": "пошаговое с примерами"
+      },
+      "project_context": {
+        "current_projects": [
+          {
+            "name": "telegram_bot",
+            "stage": "обучение",
+            "tech_stack": ["Python", "aiogram", "SQLite"],
+            "priority": "high"
+          }
+        ]
+      },
+      "error_handling_preferences": {
+        "debug_level": "подробный",
+        "error_language": "русский",
+        "include_traceback": true,
+        "error_examples": true
+      }
+    }
+  }
